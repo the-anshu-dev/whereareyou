@@ -74,7 +74,7 @@ console.log(slug);
 
   const handleCityClick = (city) => {
     // Redirect to the city-state subdomain like 'lucknow-up.anshu.com'
-    const subDomain = `${city.toLowerCase()}-${stateCode}.anshu.com`;
+    const subDomain = `${city.toLowerCase()}-${stateCode}.whereareyou-red.vercel.app`;
     window.location.href = `https://${subDomain}`;
   };
 
