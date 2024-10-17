@@ -52,7 +52,7 @@ const stateList = [
 export default function Home() {
   const handleStateClick = (state) => {
     // Create subdomain in format: 'up-anshu.com'
-    const subDomain = `${state.code}.anshu.com`;
+    const subDomain = `${state.code}.whereareyou-red.vercel.app`;
     // Redirect to the state's subdomain
     window.location.href = `https://${subDomain}`;
   };
